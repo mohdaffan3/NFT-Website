@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <title>NFT Website</title>
+</head>
+
+<body class="">
+    <header>
+        <nav id="nav"
+            class=" flex  justify-evenly  space-y-4 sm:items-center p-5 px-5 sm:py-7 flex-col sm:justify-around sm:flex-row">
+            <div id="firsttNav" class="">
+                <img class="h-12 hover:cursor-pointer hover:opacity-85" src="assets/images/logo.png" id="logo" alt="">
+            </div>
+            <div class="" id="secondNav">
+
+                <ul id="navUl"
+                    class="flex flex-col sm:flex-row text-white text-xl font-bold space-x-4 items-center hidden sm:flex">
+                    <a href="" class="sm:inline hover:text-gray-400 text-center">
+                        <li class="">Home</li>
+                    </a>
+                    <a href="" class="sm:inline hover:text-gray-400 text-center">
+                        <li class="">Explore</li>
+                    </a>
+                    <a href="" class="sm:inline hover:text-gray-400 text-center">
+                        <li class="">Collections</li>
+                    </a>
+                    <a href="" class="sm:inline hover:text-gray-400 text-center">
+                        <li class="">Contact</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="thirdNav  flex space-x-6 items-center ">
+                <div id="searchlogo" class="hover:cursor-pointer hidden sm:inline">
+                    <svg class="h-7" style="z-index: 0;" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" stroke="#303030">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                                stroke="#b8b8b8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                    </svg>
+                </div>
+                <button id="joinbtn" type="button"
+                    class="sm:inline text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 hidden">Join
+                    Now</button>
+                <div class="threeLine sm:hidden cursor-pointer" id="threeButton">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main" class="flex flex-col items-center justify-center w-full space-y-20 ">
+        <div id="heroContainer" class="my-10 w-full flex justify-center sm:px-10 ">
+            <div id="hero" class="flex w-full flex-col lsm:flex-row items-center">
+                <div id="leftHero"
+                    class="w-5/6 lsm:w-3/6   sm:px-5 flex items-center sm:items-start py-16 flex-col space-y-3">
+                    <div id="heroh1"
+                        class="ubuntufam text-[#debcfc] text-3xl xs:text-4xl font-semibold text-center sm:text-left">
+                        Future of Digital Creativity: Discover, Collect, and Trade Unique <span
+                            class="text-[#ab8fe2]">NFTs</span> Today
+                    </div>
+                    <div id="herotext"
+                        class="poppinsfam text-white text-xl font-medium xs:text-lg xs:font-normal text-center sm:text-left">
+                        NeonNova is a your oneplace market to buy Art NFTs hassle-free
+                    </div>
+                    <div id="herobuttons" class="">
+                        <button id="createbtn"
+                            class="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-purple-200 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                            <span
+                                class="relative px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                Create NFTs
+                            </span>
+                        </button>
+                        <button id="createbtn"
+                            class="my-3 relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-purple-600 to-purple-200 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800">
+                            <span
+                                class="relative px-3 py-2 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                Explore More
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div id="rightHero" class="4/6 sm:w-3/6 flex flex-col  justify-end px-4">
+                    <img class=" w-11/12 xs:w-auto" id="heroNFT" src="assets/images/hero.png" alt="">
+                    <div id="heroNFTDetails" class=" rounded-md bg-[#ffffff40] p-3">
+                        <div id="detailh1"
+                            class="text-white text-center xs:text-left text-xl font-bold p-2 bg-[#8000800d] border rounded-bl-none rounded-br-none rounded-md ">
+                            Shadow Warrior Ninja NFT
+                        </div>
+                        <div id="bidsContainer" class="flex border  rounded-b-md flex-col xs:flex-row items-center">
+                            <div id="currentBid"
+                                class="text-white w-full flex xs:flex-col xs:w-2/6 items-center justify-evenly rounded-bl-md">
+                                <span class="block text-purple-200 text-xl font-bold" id="currentBidTitle">Current
+                                    Bid</span>
+                                <span class="block font-extrabold" id="price">2.26ETH</span>
+                            </div>
+                            <div id="timeRemaining"
+                                class=" flex w-full xs:w-4/6 justify-evenly  xs:border xs:border-l-2  border-t-0 ">
+
+                                <div id="hourDiv" class="">
+                                    <span class="block text-lg font-normal text-purple-200" id="hourTitle">Hours</span>
+                                    <span class="block text-center text-2xl font-bold text-white"
+                                        id="hourTimer">25</span>
+                                </div>
+                                <div id="minuteDiv" class="">
+                                    <span class="block text-lg font-normal text-purple-200"
+                                        id="minuteTitle">Minute</span>
+                                    <span class="block text-center text-2xl font-bold text-white"
+                                        id="minuteTimer">14</span>
+                                </div>
+                                <div id="secondDiv" class=" ">
+                                    <span class="block text-lg font-normal text-purple-200"
+                                        id="secondTitle">Seconds</span>
+                                    <span class="block text-center text-2xl font-bold text-white"
+                                        id="secondTimer">02</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <!--  Quality Container  -->
+
+        <div id="NFTqualityContainer" class="my-10 w-full flex justify-center  ">
+            <div id="NFTQuality"
+                class="flex w-full ms:w-5/6 flex-col sm:flex-row sm:space-x-5 sm:justify-around  items-center">
+                <div id="leftNFTquality"
+                    class="w-5/6 sm:w-4/6 px-2  sm:px-5 flex items-center sm:items-start py-16 flex-col space-y-3">
+                    <div id="heroh1"
+                        class="ubuntufam text-[#debcfc] text-3xl xs:text-4xl font-semibold text-center sm:text-left">
+                        Premium <span class="text-[#ab8fe2]">Digital Art</span> Collection
+                    </div>
+                    <div id="NFTqualitytext"
+                        class="poppinsfam text-white text-xl font-medium xs:text-xl xs:font-medium text-center sm:text-left">
+                        Dive into a curated selection of exclusive digital artworks, where each piece is crafted by
+                        top-tier artists. Own a unique, limited-edition digital masterpiece that blends creativity with
+                        cutting-edge blockchain technology.
+                    </div>
+                    <div id="NFTqualitybuttons" class="">
+                        <button id="joinbtn" type="button"
+                            class="sm:inline text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 hidden">More</button>
+
+                    </div>
+                </div>
+
+                <div id="rightNFTquality"
+                    class="w-5/6  sm:w-2/6 flex flex-col space-y-2 py-3  items-center  bg-[#ffffff35] rounded-2xl">
+                    <div id="NFTh1"
+                        class="text-white text-center  text-lg font-bold  bg-[#8000800d] px-1 rounded-bl-none rounded-br-none  ">
+                        CyberPunk NFT
+                    </div>
+                    <img class="w-4/6  sm:w-9/12 rounded-md" id="heroNFT" src="assets/images/hoodcyber.jpeg" alt="">
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Our collections -->
+
+        <div id="ourCollection " class="w-full   flex flex-col items-center space-y-10 my-3">
+            <h3 id="ourCollectionh3" class="ubuntufam text-white text-2xl xs:text-3xl font-bold">Our Latest NFT
+                collections</h3>
+            <div id="nftcontainer" class="w-full bg-[#5707cf2d] px-2 py-4 xs:py-14">
+
+
+                <div id="nftcardList" class="flex justify-center flex-wrap space-x-3 space-y-3">
+
+                    <div class="nftcard  transition-all ease-in-out cursor-pointer " id="nftcard1">
+                        <div class="imgbox flex justify-center items-end py-2" id="imgbox1">
+                            <div class="nftcardtitle bg-[#ffffff1f] px-2  text-white text-xl font-bold rounded-md">
+                                GTA
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nftcard ">
+                        <div class="imgbox flex justify-center items-end py-2" id="imgbox2">
+                            <div class="nftcardtitle bg-[#ffffff1f] px-2  text-white text-xl font-bold rounded-md">
+                                Persia
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nftcard ">
+                        <div class="imgbox flex justify-center items-end py-2" id="imgbox3">
+                            <div class="nftcardtitle bg-[#ffffff1f] px-2  text-white text-xl font-bold rounded-md">
+                                Istanbul
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nftcard " id="nftcard4">
+                        <div class="imgbox flex justify-center items-end py-2" id="imgbox4">
+                            <div class="nftcardtitle bg-[#ffffff1f] px-2  text-white text-xl font-bold rounded-md">
+                                Corleone
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nftcard " id="nftcard5">
+                        <div class="imgbox flex justify-center items-end py-2" id="imgbox5">
+                            <div class="nftcardtitle bg-[#ffffff1f] px-2  text-white text-xl font-bold rounded-md">
+                                Scarface
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nftcard " id="nftcard6">
+                        <div class="imgbox flex justify-center items-end py-2" id="imgbox6">
+                            <div class="nftcardtitle bg-[#ffffff1f] px-2  text-white text-xl font-bold rounded-md">
+                                Gothic
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    </main>
+
+    <footer id="footer" class="my-4 py-4 flex flex-col items-center space-y-4">
+      
+        <div id="connect" class="space-y-4">
+            <div class="text-white text-center font-medium">Connect with us on</div>
+            <div id="socialicons" class=" space-x-4 flex  justify-center ">
+                <svg class="h-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                    <g  class="hover:fill-gray-300" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M9,4c-2.74952,0 -5,2.25048 -5,5v32c0,2.74952 2.25048,5 5,5h32c2.74952,0 5,-2.25048 5,-5v-32c0,-2.74952 -2.25048,-5 -5,-5zM9,6h32c1.66848,0 3,1.33152 3,3v32c0,1.66848 -1.33152,3 -3,3h-32c-1.66848,0 -3,-1.33152 -3,-3v-32c0,-1.66848 1.33152,-3 3,-3zM14,11.01172c-1.09522,0 -2.08078,0.32736 -2.81055,0.94141c-0.72977,0.61405 -1.17773,1.53139 -1.17773,2.51367c0,1.86718 1.61957,3.32281 3.67969,3.4668c0.0013,0.00065 0.0026,0.0013 0.00391,0.00195c0.09817,0.03346 0.20099,0.05126 0.30469,0.05273c2.27301,0 3.98828,-1.5922 3.98828,-3.52148c-0.00018,-0.01759 -0.00083,-0.03518 -0.00195,-0.05274c-0.10175,-1.90023 -1.79589,-3.40234 -3.98633,-3.40234zM14,12.98828c1.39223,0 1.94197,0.62176 2.00195,1.50391c-0.01215,0.85625 -0.54186,1.51953 -2.00195,1.51953c-1.38541,0 -2.01172,-0.70949 -2.01172,-1.54492c0,-0.41771 0.15242,-0.7325 0.47266,-1.00195c0.32023,-0.26945 0.83428,-0.47656 1.53906,-0.47656zM11,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-5.86523v-13.13477c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM20,19c-0.55226,0.00006 -0.99994,0.44774 -1,1v19c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10c0,-0.82967 0.22639,-1.65497 0.625,-2.19531c0.39861,-0.54035 0.90147,-0.86463 1.85742,-0.84766c0.98574,0.01695 1.50758,0.35464 1.90234,0.88477c0.39477,0.53013 0.61523,1.32487 0.61523,2.1582v10c0.00006,0.55226 0.44774,0.99994 1,1h6c0.55226,-0.00006 0.99994,-0.44774 1,-1v-10.73828c0,-2.96154 -0.87721,-5.30739 -2.38086,-6.89453c-1.50365,-1.58714 -3.59497,-2.36719 -5.80664,-2.36719c-2.10202,0 -3.70165,0.70489 -4.8125,1.42383v-0.42383c-0.00006,-0.55226 -0.44774,-0.99994 -1,-1zM12,21h4v12.13477v4.86523h-4zM21,21h4v1.56055c0.00013,0.43 0.27511,0.81179 0.68291,0.94817c0.40781,0.13638 0.85714,-0.00319 1.11591,-0.34661c0,0 1.57037,-2.16211 5.01367,-2.16211c1.75333,0 3.25687,0.58258 4.35547,1.74219c1.0986,1.15961 1.83203,2.94607 1.83203,5.51953v9.73828h-4v-9c0,-1.16667 -0.27953,-2.37289 -1.00977,-3.35352c-0.73023,-0.98062 -1.9584,-1.66341 -3.47266,-1.68945c-1.52204,-0.02703 -2.77006,0.66996 -3.50195,1.66211c-0.73189,0.99215 -1.01562,2.21053 -1.01562,3.38086v9h-4z"></path></g></g>
+                    </svg>
+    
+                    <svg class="h-8 cursor-pointer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                        <g class="hover:fill-gray-300" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,8c9.389,0 17,7.611 17,17c0,9.389 -7.611,17 -17,17c-9.389,0 -17,-7.611 -17,-17c0,-9.389 7.611,-17 17,-17zM30.864,31.93c0.312,-0.959 1.778,-10.521 1.958,-12.405c0.055,-0.571 -0.126,-0.95 -0.478,-1.119c-0.427,-0.205 -1.06,-0.103 -1.794,0.162c-1.007,0.363 -13.876,5.827 -14.62,6.144c-0.704,0.3 -1.372,0.626 -1.372,1.1c0,0.333 0.198,0.52 0.742,0.714c0.566,0.202 1.992,0.634 2.834,0.866c0.811,0.224 1.734,0.03 2.251,-0.292c0.548,-0.341 6.878,-4.576 7.332,-4.947c0.454,-0.371 0.816,0.104 0.445,0.476c-0.371,0.371 -4.715,4.588 -5.289,5.172c-0.696,0.709 -0.202,1.443 0.265,1.738c0.533,0.336 4.365,2.906 4.943,3.319c0.578,0.412 1.162,0.599 1.699,0.599c0.536,-0.001 0.817,-0.708 1.084,-1.527z"></path></g></g>
+                        </svg>
+    
+                    <svg class="h-6 cursor-pointer" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                        <g class="hover:fill-gray-300" fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M29,3c-2.10547,0 -4.56641,1.65234 -4.9375,9.03125c0.3125,-0.00781 0.62109,-0.03125 0.9375,-0.03125c0.35156,0 0.71484,0.01953 1.0625,0.03125c0.23828,-4.43359 1.29297,-7.03125 2.9375,-7.03125c0.70313,0 1.10156,0.38281 1.84375,1.1875c0.86719,0.94141 2,2.16406 4.21875,2.625c-0.03516,-0.26172 -0.0625,-0.54297 -0.0625,-0.8125c0,-0.42187 0.04297,-0.82031 0.125,-1.21875c-1.375,-0.375 -2.10156,-1.16797 -2.8125,-1.9375c-0.79297,-0.85937 -1.70312,-1.84375 -3.3125,-1.84375zM41,4c-2.20703,0 -4,1.79688 -4,4c0,2.20313 1.79297,4 4,4c2.20703,0 4,-1.79687 4,-4c0,-2.20312 -1.79297,-4 -4,-4zM25,14c-12.13281,0 -22,6.17969 -22,15c0,8.82031 9.86719,16 22,16c12.13281,0 22,-7.17969 22,-16c0,-8.82031 -9.86719,-15 -22,-15zM7.5,14.9375c-1.46094,0 -2.84766,0.59766 -3.90625,1.65625c-1.72266,1.72266 -2.07812,4.19922 -1.09375,6.25c1.51172,-2.92578 4.11328,-5.42187 7.46875,-7.28125c-0.76172,-0.38672 -1.60547,-0.625 -2.46875,-0.625zM42.5,14.9375c-0.86328,0 -1.70703,0.23828 -2.46875,0.625c3.35547,1.85938 5.95703,4.35547 7.46875,7.28125c0.98438,-2.05078 0.62891,-4.52734 -1.09375,-6.25c-1.05859,-1.05859 -2.44531,-1.65625 -3.90625,-1.65625zM17,23c1.65625,0 3,1.34375 3,3c0,1.65625 -1.34375,3 -3,3c-1.65625,0 -3,-1.34375 -3,-3c0,-1.65625 1.34375,-3 3,-3zM33,23c1.65625,0 3,1.34375 3,3c0,1.65625 -1.34375,3 -3,3c-1.65625,0 -3,-1.34375 -3,-3c0,-1.65625 1.34375,-3 3,-3zM16.0625,34c0.25,0.04297 0.49609,0.18359 0.65625,0.40625c0.10547,0.14844 2.44922,3.28125 8.28125,3.28125c5.91016,0 8.25781,-3.21875 8.28125,-3.25c0.31641,-0.44922 0.95313,-0.57031 1.40625,-0.25c0.44922,0.31641 0.53516,0.92188 0.21875,1.375c-0.11719,0.16797 -2.96875,4.125 -9.90625,4.125c-6.94141,0 -9.78906,-3.95703 -9.90625,-4.125c-0.31641,-0.45312 -0.23437,-1.05859 0.21875,-1.375c0.22656,-0.16016 0.5,-0.23047 0.75,-0.1875z"></path></g></g>
+                        </svg>   
+    
+                    
+    
+    
+            </div>
+        </div>
+
+        
+
+    </footer>
+
+</body>
+
+</html>
+
+<script>
+
+
+
+    let mainC = document.getElementById('main');
+    console.log(mainC.childNodes);
+    console.log(mainC.childElementCount);
+
+
+
+
+    let threeButton = document.getElementById('threeButton');
+    let nav = document.getElementById('nav');
+    let navUl = document.getElementById('navUl');
+    let logo = document.getElementById('logo');
+    let searchlogo = document.getElementById('searchlogo');
+    let joinbtn = document.getElementById('joinbtn');
+
+    console.log(threeButton);
+    threeButton.addEventListener("click", function () {
+        nav.classList.toggle('h-60')
+        nav.classList.toggle('bg-[#735ba479]')
+        nav.classList.toggle('backdrop-blur-sm')
+        nav.classList.toggle('items-center')
+        navUl.classList.toggle('hidden')
+        joinbtn.classList.toggle('hidden')
+        // searchlogo.classList.toggle('hidden')
+
+        logo.classList.toggle('hidden')
+
+
+    });
+
+
+    function divmod(dividend, divisor) {
+        const quotient = Math.floor(dividend / divisor);
+        const remainder = dividend % divisor;
+        return { quotient, remainder };
+    }
+
+    let hour = (Math.round((Math.random() * 100))) % 24;
+    document.getElementById('hourTimer').innerText = hour;
+    let totalsec = (Math.round((Math.random() * 10000)));
+    let i = totalsec;
+    setInterval(() => {
+        if (i >= 0) {
+
+            let { quotient: mins, remainder: seconds } = divmod(i, 60);
+            document.getElementById('minuteTimer').innerText = mins;
+            document.getElementById('secondTimer').innerText = seconds;
+            i = i - 1;
+        }
+
+    }, 1000)
+
+
+
+   
+
+
+
+
+    // For mobile screen
+
+    function nftcardnum() {
+        return Math.floor(Math.random() * 6) + 1;
+    }
+
+    let nftcarda = document.getElementById(`nftcard1`);
+    let nftcardb = document.getElementById(`nftcard5`);
+    let nftcardc = document.getElementById(`nftcard6`);
+    function remove3cards() {
+        if (window.innerWidth <= 500) {  // Change the width to your target width
+            nftcarda.classList.add('hidden');
+            nftcardb.classList.add('hidden');
+            nftcardc.classList.add('hidden');
+
+        }
+
+    }
+
+    // Check screen width on page load
+    remove3cards();
+
+    window.addEventListener('resize', remove3cards());
+
+
+
+
+
+
+
+
+
+</script>
